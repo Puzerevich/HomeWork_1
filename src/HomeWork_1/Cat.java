@@ -1,0 +1,60 @@
+package HomeWork_1;
+
+/**
+ * Created by KOS on 27.03.2018.
+ */
+public class Cat {
+
+    private String name;
+    private int age;
+    private String color;
+    private String cat_say="Miau";
+
+    public Cat() {
+    }
+
+    public Cat(String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", color='" + color + '\'' +
+                ", cat_say='" + cat_say + '\'' +
+                '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getSay(){
+        return cat_say;
+    }
+
+}
