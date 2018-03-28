@@ -16,7 +16,4 @@ public class Vector3d {
         System.out.println("Скалярное произведение векторов: "+SkalProd);
     }
 
-
-  //  public static void method(double v, double v1, double v2) {
-  //  }
 }
